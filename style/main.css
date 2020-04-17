@@ -1,0 +1,175 @@
+/* -----------------------------------------------------------<Header>------------------------------------ */
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.header_nav-items{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    align-items: center;
+}
+.header_nav .items{
+    list-style: none;
+    padding: 5px
+    
+}
+
+.header_nav .items a{
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+.header_nav .items a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.50);
+}
+.header_nav .items .al_revez{
+    color: rgba(0, 0, 0, 0.69);
+}
+.header_nav .items .al_revez:hover{
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.header_nav ul li div img{
+    width: 32px;
+    border-radius: 100%;
+}
+.header_nav-profile ul{
+    display: none;
+    position: absolute;
+    margin-left: -90px;
+}
+.header_nav-profile li{
+    list-style: none;
+    margin-top: 15px;
+}
+.header_nav-profile:hover ul,.header_nav-profile ul:hover{
+    border-radius: 50px;
+    display: block;
+}
+/* -----------------------------------------------------------</Header>------------------------------------ */
+
+/* -----------------------------------------------------------<logo>------------------------------------ */
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+/* -----------------------------------------------------------</logo>------------------------------------ */
+
+/* -----------------------------------------------------------<buscador>------------------------------------ */
+:root{
+    --color_gris: rgba(128,128,128,0.5);
+    --linea_gris: 1px solid rgba(128, 128, 128, 0.466);
+}
+.buscador{
+    display: flex;
+    justify-content: center;
+    max-width: 482px;
+    margin: auto;
+    border: var(--linea_gris);
+    border-radius: 30px;
+}
+.buscador:hover{
+    box-shadow: 0px 1px 2px gray;
+}
+.buscador_container{
+    display: flex;
+    align-items: center;
+}
+.buscador_img-lupa{
+    display: flex;
+    align-items: center;
+    height: 37px;
+    padding: 5px 7px;
+    
+}
+.buscador_img-microfono{
+    display: flex;
+    align-items: center;
+    height: 37px;
+    padding: 5px 7px;
+}
+.buscador div input{
+    width: 387px;
+    height: 43px;
+    outline: none;
+    font-size: 14px;
+    border: none;
+}
+.buscador div .buscador_img-lupa svg{
+    width: 20px;
+}
+.buscador div .buscador_img-microfono img{
+    width: 24px;
+}
+/* -----------------------------------------------------------</buscador>------------------------------------ */
+
+/* -----------------------------------------------------------<options>------------------------------------ */
+.options{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.options_container-ByS{
+    display: flex;
+    margin-bottom: 20px;
+}
+.options_container-ByS div{
+    margin: 11px 4px; 
+    padding: 10px 16px;
+    background: #f2f2f2;
+    font-size: 16px;
+}
+.options_container-ByS div a{
+    text-decoration: none;
+    color: gray;
+}
+.options_container-ByS div:hover{
+    border: var(--linea_gris);
+    border-radius: 20px;
+}
+.options_container-covi19 a{
+    font-size: 13px;
+}
+.options_container-leng{
+    text-align: center;
+    margin-top: 50px;
+}
+/* -----------------------------------------------------------</options>------------------------------------ */
+
+/* -----------------------------------------------------------<footer>------------------------------------ */
+footer {
+    background-color: rgba(0,0,0,0.1);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    padding-left: 27px;
+    width: 100%;
+    box-sizing:border-box; 
+    -moz-box-sizing:border-box; /* Firefox */ 
+    -webkit-box-sizing:border-box; /* Safari */
+}
+footer .pais{
+    width: 100%;
+}
+footer .pais p{
+    color: var(--color_gris);
+    font-size: 15px;
+}
+footer .final{
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+footer .final a{
+    color: #5f6368;
+    text-decoration: none;
+    padding-right: 27px;
+}
+footer .final a:hover{
+    text-decoration: underline;
+}
+/* -----------------------------------------------------------</footer>------------------------------------ */
